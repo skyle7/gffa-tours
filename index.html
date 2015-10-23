@@ -11,12 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            padding-bottom: 20px;
-        }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -25,22 +21,6 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Kessel Runners</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <!-- This is where our links will go -->
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
 
     <div id="destination-carousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -101,6 +81,27 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!-- This is where our links will go -->
+          <ul>
+            <li><a href="#">Kessel Runners Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#crew">Crew</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
     <div class="container">
       <!-- Destinations -->
@@ -124,7 +125,8 @@
             <h3>Endor</h3>
             <h6>Birthplace of the New Republic</h6>
             <hr>
-            <p>On the forest moon of Endor, the Alliance to Restore the Republic found their greatest challenge, and won a decisive victory against the Galactic Empire's Death Star II, the Executor armada, and the Emperor himself. The Alliance fleet, led by Admiral Ackbar, defeated the Empire's most powerful fleet, its most experienced commanders, and overwhelming odds to </p>
+            <p>On the forest moon of Endor, the Alliance to Restore the Republic found their greatest challenge, and won a decisive victory against the Galactic Empire's Death Star II, the Executor armada, and the Emperor himself. The Alliance fleet, led by Admiral Ackbar, defeated the Empire's most powerful fleet and its most experienced commanders.</p>
+            <p>In the years since the Battle of Endor, the forest moon has become a quietly successful tourist location, with the native Ewok populations welcoming travellers looking for a less-pampered adventure. The natural beauty of the forest moon is huge draw, no matter what your political leanings.</p>
           </div>
           <div class="col-md-4 col-md-offset-1">
             <img src="img/endor-2.jpg" alt="">
@@ -138,7 +140,8 @@
             <h3>Bespin</h3>
             <h6>Luxury in the clouds</h6>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt culpa veritatis dolorem accusamus dolorum enim tempore quidem dolore vel hic magni aperiam pariatur ex delectus aliquid tenetur atque, quod quae.</p>
+            <p>Bespin was an immense gas giant located in the vicinity of the Anoat system, in a little-visited sector of the galaxy. Bespin had several moons, and its gaseous mass contained a thin stratum of habitable atmosphere. Its layers were a source of rare Tibanna gas, which was harvested and refined in several mining complexes, including Cloud City, an opulent metropolis suspended in the planet's huge billowing clouds. </p>
+            <p>The Ugnaught city of Ugnorgrad also was located over the planet, being ruled by King Ozz in the time after the Battle of Endor. During the Galactic Civil War, Bespin remained unaffiliated, but that did not prevent the Galactic Empire from garrisoning the planet and seizing Cloud City. However, with the Empire's defeat at Endor, the gas giant and its prosperous mining colony ended up recovering their freedom.</p>
           </div>
         </div>
         <div class="row" id="naboo">
@@ -146,7 +149,8 @@
             <h3>Naboo</h3>
             <h6>Jewel of the former Empire</h6>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ratione quas veritatis, numquam odit, eligendi incidunt error corporis aliquid praesentium consequatur possimus distinctio repellendus excepturi reiciendis eveniet reprehenderit voluptatum optio.</p>
+            <p>Naboo was a small pastoral world located near the border of the Outer Rim Territories. It was noted for having a porous crust that contained plasmic energy. Its surface comprized a vast array of different landscapes, from rolling plains and grassy hills to swampy lakes. Beside its natural features, Naboo was considered a world of classical beauty due to the aesthetics of its population centers. While most of Naboo's land animals were peaceful, as exemplified by the gentle shaak, the planet's oceans teemed with menacing creatures such as the opee sea killer and the sando aqua monster.</p>
+            <p>Following the rise of the Galactic Empire, Naboo hosted one of the new regime's military garrisons. However, when news of Palpatine's death had spread across the galaxy after the Battle of Endor, an outpouring of joy occurred on Naboo, the inhabitants of which considered themselves free at last. Naboo was one of the first planets to be freed by the New Republic. Thane Kyrell and Corona Squadron fought to hold the Empire from retaking the planet, and it's now a major tourist destination.</p>
           </div>
           <div class="col-md-4 col-md-offset-1">
             <img src="img/naboo-2.jpg" alt="">
@@ -160,49 +164,40 @@
             <h3>Corellia</h3>
             <h6>Homeworld of Heroes</h6>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus possimus tempora officiis ab voluptatum soluta cumque placeat nisi corrupti necessitatibus aperiam quas reiciendis, natus magni, explicabo odio velit deleniti laboriosam.</p>
+            <p>Corellia was located in the Core Worlds. It was known for its ace pilots and large starships. Vessels such as the Millennium Falcon and Imperial starships were built on Corellia. At some point in the Imperial era, an organization known as the Corellian Resistance operated on the planet, fighting against the Galactic Empire. One of their members, Miru Nadrinakar, attempted to warn them of an upcoming crackdown.</p>
+            <p>It was the homeworld of Han Solo, Wedge Antilles, the Besalisk Gadren, and the bounty hunter Dengar.</p>
           </div>
         </div>
       </div>
       <!-- Crew -->
-      <div class="row">
+      <div class="row" id="crew">
         <h2 class="text-center">Crew</h2>
         <hr>
         <div class="col-md-4 text-center">
-          <img src="http://placehold.it/250x250" alt="">
+          <img src="/img/wedge.jpg" alt="">
           <h3>Wedge Antilles</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat delectus assumenda aperiam possimus deserunt officia itaque modi suscipit error perferendis laborum corporis voluptas voluptate esse mollitia, dignissimos eos fugiat. Mollitia.</p>
+          <p>Wedge Antilles was a renowned human male starfighter pilot from Corellia who served in the Alliance to Restore the Republic and the New Republic during their fight against the Galactic Empire. He became a member of the Rebel Alliance during the Galactic Civil War and fought in the Battle of Yavin, where he flew in Red Squadron alongside Luke Skywalker.</p>
         </div>
         <div class="col-md-4 text-center">
-          <img src="http://placehold.it/250x250" alt="">
+          <img src="/img/mirax.jpg" alt="">
           <h3>Mirax Terrik</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias modi minus inventore, cum placeat aspernatur ipsam sapiente, ab ratione iusto. Eius rem esse enim veniam deserunt nisi omnis quae, ex.</p>
+          <p>Wedge and Mirax grew up as close friends, as Mirax's father occasionally used the Antilles Fuel Depot as a waystation during his smuggling activities. When her father was finally apprehended by CorSec and sentenced to five years of hard labor on Kessel, the still underage Mirax took control of his smuggling operation. Under her guidance, the organization maintained its profitability despite turning almost completely legitimate. She's been flying ever since.</p>
         </div>
         <div class="col-md-4 text-center">
-          <img src="http://placehold.it/250x250" alt="">
+          <img src="/img/janson.jpg" alt="">
           <h3>Wes Janson</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque dignissimos tenetur laborum officia rerum vitae sequi labore in, iste error consequatur esse iusto, fugiat qui eos soluta. Placeat, at.</p>
+          <p>Wes Janson was a human male pilot native to Taanab who served as a Lieutenant for the Alliance to Restore the Republic during the Galactic Civil War. He served as a gunner for Wedge Antilles at the Battle of Hoth. He was the first member of Rogue Squadron to successfully take down an Imperial walker with the harpoon and tow cable gambit devised by Commander Luke Skywalker. Following the battle, Janson (along with Antilles and Derek Klivian) boarded X-wing starfighters and helped the last Rebel transport, The Bright Hope escape Hoth.</p>
         </div>
       </div>
       <!-- About -->
-      <div class="row">
+      <div class="row" id="about">
         <h2 class="text-center">About Kessel Runners</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione earum recusandae possimus laboriosam modi praesentium officia unde? Excepturi, itaque, vitae. Odit fugit maiores reprehenderit ad atque maxime, expedita incidunt id.</p>
-        <p>Cum et fuga ipsum, laborum consequuntur distinctio possimus, iste esse animi quia molestias perspiciatis impedit voluptas? Beatae nam, quibusdam tenetur officiis maiores, eos enim, eligendi unde repudiandae, omnis totam cumque.</p>
-        <p>Voluptas ex, sequi non aut saepe nesciunt dolorum animi reiciendis, odio, assumenda iste debitis, culpa rem? Quasi praesentium ratione incidunt quos vero, expedita iure mollitia obcaecati. Quidem officia sint numquam!</p>
+        <p>Kessel Runners is a tourist company made up of retired pilots from the Alliance to Restore the Republic and the New Republic. Rather than sit around and collect a pension, they decided to keep doing what they love, and show others the wonders of the galaxy.</p>
+        <p>But really, it's a fictional site for students of the <a href="http://fourathens.com/classes">FourAthens code classes</a>. </p>
       </div>
 
       <footer>
-        <div class="col-md-4">
-          <h3 class="text-center">Contact</h3>
-        </div>
-        <div class="col-md-4">
-          <h3 class="text-center">Social Holonet</h3>
-        </div>
-        <div class="col-md-4">
-          <h3 class="text-center">Offices</h3>
-        </div>
         <p class="text-center">&copy; Kessel Runners GFFA Tours 2015</p>
       </footer>
     </div> <!-- /container -->

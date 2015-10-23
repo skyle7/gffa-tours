@@ -3,12 +3,68 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#destination-carousel {
-  margin-bottom: 1.5em;
+
+body{
+  font-family: 'Lato';
+}
+p {
+  font-size: 1em;
 }
 hr {
   padding-top: 1.5em;
 }
 #destinations > .row {
   padding-top: 2em;
+}
+.navbar-inverse {
+  background-image: none;
+  background-color: #76b38f;
+  border: none;
+  border-top: 3px solid #52936d;
+  border-bottom: 1px solid #52936d;
+  border-radius: 0;
+  padding: 1em;
+  text-align: center;
+}
+.navbar ul {
+  margin: 0 10px;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.navbar li {
+  white-space: none;
+  transition: background .2s;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.navbar li > a::after {
+  content: '|';
+  font-family: 'fontello';
+  vertical-align: middle;
+  font-size: 1.5em;
+  margin: 0px 30px;
+  color: #f1f1f1 !important;
+}
+
+.navbar li:last-child > a::after {
+  content: '';
+}
+
+footer {
+  margin: 1em 0 5em;
 }
